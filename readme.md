@@ -1,78 +1,73 @@
 # Matrix Calculator
 
-Matrix Calculator là một chương trình giao diện đồ họa đơn giản giúp bạn thực hiện các phép tính ma trận cơ bản như tính ma trận chuyển vị, nghịch đảo  hay là cộng, trừ, nhân 2 ma trận 
+Matrix Calculator is a simple graphical interface program that helps you perform basic matrix calculations such as finding the transpose, inverse, or adding, subtracting, and multiplying two matrices
 
-## Yêu cầu hệ thống
+## System Requirements
 
-- Windows 7/8/10/11 (nếu bạn đóng gói thành tệp .exe)
-- Python 3.x (nếu bạn chạy từ mã nguồn)
-- Các thư viện Python: Tkinter
+Windows 7/8/10/11 (if you package it into an .exe file)
+Python 3.x (if you run from source code)
+Python libraries: Tkinter
 
-## Hướng dẫn cài đặt
-Tải file 20227138_source.zip về máy và giải nén
+## Running from .exe file
 
-### Chạy từ tệp .exe
+Download the main.exe file from 20227138_source\dist.
+Run the main.exe file.
 
-1. Tải tệp `main.exe` từ 20227138_source\dist
-2. Chạy tệp `main.exe`.
+## Running from source code
 
-### Chạy từ mã nguồn
-
-1. Cài đặt Python 3.12.4 (mới nhất) từ [python.org](https://www.python.org/).
-3. Cài đặt các thư viện cần thiết bằng lệnh:
+1. Install Python 3.12.4 (latest) from python.org.
+2. Install the required libraries using the command:
     pip install tkinter
-4. Chạy chương trình bằng lệnh:
+3. Run the program using the command:
     python main.py
 
 
-## Hướng dẫn sử dụng
+## User Guide
 
-### Giao diện chính
+### Main Interface
 
-Khi mở chương trình, bạn sẽ thấy giao diện chính của Matrix Calculator. Ở đây, bạn có thể thực hiện các thao tác sau:
+When you open the program, you will see the main interface of the Matrix Calculator. Here, you can perform the following actions:
 
-- **Nhập ma trận**: Nhập các phần tử của ma trận trên bàn phím hoặc lấy từ file txt.
-- **Chọn phép tính**: Chọn 1 trong 5 phép tính ở trên giao diện
-- **Xem kết quả**: Kết quả sẽ được hiển thị trên màn hình.
-- **Lưu kết quả**: Kết quả sẽ được lưu vào khi bạn nhập tên file cần lưu.
+    Input matrix: Enter the matrix elements on the keyboard or load from a txt file.
+    Select calculation: Choose one of the 5 calculations on the interface.
+    View results: The result will be displayed on the screen.
+    Save results: The result will be saved when you enter the file name to save.
 
-### Các phép tính cơ bản
+### Basic Calculations
 
-#### Phép tính với 1 ma trận
+#### Operations with 1 matrix
 
-1. Nhập ma trận cần thực hiện vào ô ma trận 1 hoặc chọn file ma trận 1.
-2. Nhấn nút "Ma trận chuyển vị" hoặc "Ma trận nghịch đảo".
-3. Kết quả của phép tính sẽ được hiển thị.
+1. Enter the matrix to be calculated in the matrix 1 box or select the matrix 1 file.
+2. Press the "Transpose" or "Inverse" button.
+3. The result of the calculation will be displayed.
 
-#### Phép tính với 2 ma trận
+#### Operations with 2 matrices
 
-1. Nhập hai ma trận cần thực hiện vào ô ma trận 1, ma trận 2 hoặc chọn file ma trận 1, file ma trận 2.
-2. Nhấn nút "Cộng 2 ma trận" hoặc "Trừ 2 ma trận" hoặc "Nhân 2 ma trận".
-3. Kết quả của phép tính sẽ được hiển thị.
+1. Enter the two matrices to be calculated in the matrix 1, matrix 2 boxes or select the matrix 1 file, matrix 2 file.
+2. Press the "Add 2 matrices" or "Subtract 2 matrices" or "Multiply 2 matrices" button.
+3. The result of the calculation will be displayed.
 
-## Ví dụ
+## Example
 
-Dưới đây là một ví dụ về cách sử dụng chương trình:
+Below is an example of how to use the program:
 
-1. Nhập ma trận A:
+1. Enter matrix A:
 
     1 2
     3 4
 
-2. Nhập ma trận B:
+2. Enter matrix B:
 
     5 6
     7 8
 
-3. Chọn phép tính "Cộng".
-4. Kết quả:
-
+3. Select the "Add" calculation.
+4. Result:
     6  8
     10 12
 
+## Contact and Contributions
 
-## Liên hệ và Đóng góp
-
-Nếu bạn có bất kỳ câu hỏi hoặc gặp vấn đề, vui lòng liên hệ với chúng tôi qua email: [Nguyen.NP227138@sis.hust.edu.vn] hoặc [nguyen.nguyenphuc.dev@gmail.com].
+If you have any questions or encounter issues, please contact us via email: [Nguyen.NP227138@sis.hust.edu.vn] or [nguyen.nguyenphuc.dev@gmail.com].
 
 # matrix-calculator
