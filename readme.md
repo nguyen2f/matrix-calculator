@@ -10,7 +10,7 @@ Python libraries: Tkinter
 
 ## Running from .exe file
 
-Download the main.exe file from 20227138_source\dist.
+Download the main.exe file from matrix-calculator\dist.
 Run the main.exe file.
 
 ## Running from source code
